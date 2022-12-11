@@ -7,11 +7,11 @@
           "label": "Etiqueta do botão sólido",
           "info": "Utilizado como cor do primeiro plano em cores de destaque."
         },
-        "colors_accent_1": {
+        "colors_accent_main": {
           "label": "Destaque 1",
           "info": "Utilizado para fundo do botão sólido."
         },
-        "colors_accent_2": {
+        "colors_accent_light": {
           "label": "Destaque 2"
         },
         "header__1": {
@@ -34,7 +34,7 @@
         "colors_background_2": {
           "label": "Fundo 2"
         },
-        "gradient_accent_1": {
+        "gradient_accent_main": {
           "label": "Gradiente de destaque 1"
         },
         "gradient_accent_2": {

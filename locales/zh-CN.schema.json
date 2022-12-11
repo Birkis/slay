@@ -7,11 +7,11 @@
           "label": "实心按钮标签",
           "info": "用作强调色上的前景色。"
         },
-        "colors_accent_1": {
+        "colors_accent_main": {
           "label": "强调色 1",
           "info": "用于实心按钮背景。"
         },
-        "colors_accent_2": {
+        "colors_accent_light": {
           "label": "强调色 2"
         },
         "header__1": {
@@ -34,7 +34,7 @@
         "colors_background_2": {
           "label": "背景 2"
         },
-        "gradient_accent_1": {
+        "gradient_accent_main": {
           "label": "强调色 1 渐变"
         },
         "gradient_accent_2": {

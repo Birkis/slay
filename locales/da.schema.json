@@ -7,11 +7,11 @@
           "label": "Udfyldt knaptekst",
           "info": "Bruges som forgrundsfarve på markeringsfarver."
         },
-        "colors_accent_1": {
+        "colors_accent_main": {
           "label": "Markering 1",
           "info": "Bruges til udfyldt knapbaggrund."
         },
-        "colors_accent_2": {
+        "colors_accent_light": {
           "label": "Markering 2"
         },
         "header__1": {
@@ -34,7 +34,7 @@
         "colors_background_2": {
           "label": "Baggrund 2"
         },
-        "gradient_accent_1": {
+        "gradient_accent_main": {
           "label": "Markering 1 – graduering"
         },
         "gradient_accent_2": {

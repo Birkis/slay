@@ -7,11 +7,11 @@
           "label": "Etiqueta de botón sólido",
           "info": "Se utiliza como color de primer plano sobre los colores de acento."
         },
-        "colors_accent_1": {
+        "colors_accent_main": {
           "label": "Acento 1",
           "info": "Se utiliza para el fondo de botón sólido"
         },
-        "colors_accent_2": {
+        "colors_accent_light": {
           "label": "Acento 2"
         },
         "header__1": {
@@ -34,7 +34,7 @@
         "colors_background_2": {
           "label": "Fondo 2"
         },
-        "gradient_accent_1": {
+        "gradient_accent_main": {
           "label": "Degradado resaltado 1"
         },
         "gradient_accent_2": {

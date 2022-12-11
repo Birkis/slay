@@ -7,12 +7,12 @@
           "label": "Tydlig knappetikett",
           "info": "Används som förgrundsfärg på accentfärger."
         },
-        "colors_accent_1": {
-          "label": "Accent 1",
+        "colors_accent_main": {
+          "label": "Accent Main",
           "info": "Används för tydlig knappbakgrund."
         },
-        "colors_accent_2": {
-          "label": "Accent 2"
+        "colors_accent_light": {
+          "label": "Accent Light"
         },
         "header__1": {
           "content": "Primärfärger"
@@ -34,11 +34,11 @@
         "colors_background_2": {
           "label": "Bakgrund 2"
         },
-        "gradient_accent_1": {
-          "label": "Tonad accent 1"
+        "gradient_accent_main": {
+          "label": "Tonad Accent Main"
         },
         "gradient_accent_2": {
-          "label": "Tonad accent 2"
+          "label": "Tonad Accent Light"
         },
         "gradient_background_1": {
           "label": "Tonad bakgrund 1"
@@ -367,10 +367,10 @@
       "spacing": "Radavstånd",
       "colors": {
         "accent_1": {
-          "label": "Accent 1"
+          "label": "Accent Main"
         },
         "accent_2": {
-          "label": "Accent 2"
+          "label": "Accent Light"
         },
         "background_1": {
           "label": "Bakgrund 1"

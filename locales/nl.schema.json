@@ -7,12 +7,12 @@
           "label": "Effen knoplabel",
           "info": "Gebruikt als voorgrondkleur bij accentkleuren."
         },
-        "colors_accent_1": {
-          "label": "Accent 1",
+        "colors_accent_main": {
+          "label": "Accent Main",
           "info": "Gebruikt voor effen knopachtergrond"
         },
-        "colors_accent_2": {
-          "label": "Accent 2"
+        "colors_accent_light": {
+          "label": "Accent Light"
         },
         "header__1": {
           "content": "Primaire kleuren"
@@ -34,11 +34,11 @@
         "colors_background_2": {
           "label": "Achtergrond 2"
         },
-        "gradient_accent_1": {
-          "label": "Accent 1-verloop"
+        "gradient_accent_main": {
+          "label": "Accent Main-verloop"
         },
         "gradient_accent_2": {
-          "label": "Accent 2-kleurverloop"
+          "label": "Accent Light-kleurverloop"
         },
         "gradient_background_1": {
           "label": "Achtergrond 1-verloop"
@@ -367,10 +367,10 @@
       "spacing": "Afstand",
       "colors": {
         "accent_1": {
-          "label": "Accent 1"
+          "label": "Accent Main"
         },
         "accent_2": {
-          "label": "Accent 2"
+          "label": "Accent Light"
         },
         "background_1": {
           "label": "Achtergrond 1"
