@@ -1,0 +1,11 @@
+.cols__wrapper {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.cols__item {
+
+    height: 500px;
+    border: 2px solid blue;
+}

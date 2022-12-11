@@ -1,0 +1,62 @@
+/* MOBILE FIRST */
+
+.header {
+    width: 100vw;
+
+    position: fixed;
+    bottom: 0;
+    z-index: 5;
+
+}
+
+.nav__bar {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    grid-row: 12/13;
+
+}
+
+.nav__bar .nav__links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-inline: auto;
+    width: 100vw;
+    padding: 1.25rem 0;
+    
+}
+
+.nav__item a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 1rem 1rem; 
+    margin: 1rem;
+    color: var(--color-text);
+    text-transform: uppercase;
+
+}
+
+
+.nav__item a[data-text-color="light"] {
+    color: var(--color-white);
+
+}
+
+
+/* MEDIUM/DESKTOP SIZE */
+ 
+@media screen and (width > 55em) {
+
+    .header {
+        position: fixed;
+        top:0;
+        bottom: unset;
+
+    }
+
+    .nav__bar {
+        grid-row: 1/2;  
+    }
+}

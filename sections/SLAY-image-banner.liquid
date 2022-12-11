@@ -1,0 +1,96 @@
+{{ 'section-SLAY-image-banner.css' | asset_url | stylesheet_tag }}
+
+
+
+<div id="Banner-{{ section.id }}" class="image-banner__wrapper">
+    <div data-side-orientation="{{ section.settings.orientation }}" class="image-banner__text p-2">
+        <p> New Product </p>
+        <h1 class="p-v-2">XX99 mark ii headphones</h1>
+        <p class="p-v-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Explicabo, hic.
+            Nesciunt distinctio quam sint fuga odio
+            maiores qui a est?</p>
+        <button class="">see product</button>
+
+    </div>
+    <div class="image-banner__image" data-side-orientation="{{ section.settings.orientation }}">
+
+        {% if section.settings.image != blank %}
+
+        {{ section.settings.image | image_url: width: 500, crop: 'center' | image_tag:
+        loading: 'lazy'
+        }}
+
+        {% else %}
+
+        {{ images['C-D-X-PDX_A_82OBO-UNSPLASH.jpg'] | image_url: width: 600 | image_tag }}
+
+        {% endif %}
+
+
+    </div>
+</div>
+
+{% schema %}
+
+{
+"name": "t:sections.image-banner.name",
+"tag": "section",
+"class": "section",
+"settings": [
+{
+"type": "image_picker",
+"id": "image",
+"label": "t:sections.image-banner.settings.image.label"
+},
+{
+"type": "select",
+"id": "image_height",
+"options": [
+{
+"value": "small",
+"label": "t:sections.image-banner.settings.image_height.options__1.label"
+}, {
+"value": "medium",
+"label": "t:sections.image-banner.settings.image_height.options__2.label"
+}, {
+"value": "large",
+"label": "t:sections.image-banner.settings.image_height.options__3.label"
+}
+],
+"default": "medium",
+"label": "t:sections.image-banner.settings.image_height.label",
+"info": "t:sections.image-banner.settings.image_height.info"
+},
+{
+"type":"select",
+"id":"orientation",
+"options": [
+{
+"value":"text-left",
+"label":"Text Left"
+},
+{
+"value":"text-right",
+"label":"Text Right"
+}
+],
+"default":"text-left",
+"label": "Text and Image Orientation",
+"info":"Chose orientation left or right"
+}
+],
+"blocks": [
+
+],
+"presets": [
+{
+"name": "t:sections.image-banner.presets.name",
+"blocks": [
+
+]
+}
+]
+}
+{% endschema %}
